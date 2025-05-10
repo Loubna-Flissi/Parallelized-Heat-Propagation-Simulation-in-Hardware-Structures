@@ -32,31 +32,6 @@ Each folder includes a dedicated `README.md` with compilation and execution inst
 
 ---
 
-## Performance Comparison
-
-### Grid Size: 1000 x 1000  
-### Metric: Execution Time (in seconds)
-
-| Method           | Threads     | Execution Time |
-|------------------|-------------|----------------|
-| **Serial**       | 1           | 102.81 s       |
-| **Pthreads**     | 2           | 54.23 s        |
-|                  | 4           | 31.83 s        |
-|                  | 6           | 25.97 s        |
-|                  | 8           | 23.01 s        |
-|                  | 16          | 21.97 s        |
-|                  | 24          | 20.92 s        |
-|                  | 50          | 21.52 s        |
-| **CUDA**         | 2           | 7.10 s         |
-|                  | 4           | 3.78 s         |
-|                  | 6           | 2.54 s         |
-|                  | 8           | 1.92 s         |
-|                  | 16          | 1.11 s         |
-|                  | 24          | **0.77 s**     |
-|                  | 50          | **0.77 s**     |
-
----
-
 ## Analysis
 
 - **Serial**: Slowest; used as a correctness and performance baseline.
