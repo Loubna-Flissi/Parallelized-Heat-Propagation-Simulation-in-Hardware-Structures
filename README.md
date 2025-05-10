@@ -14,13 +14,12 @@ This project focuses on the **parallelization** of heat propagation simulation a
 ## Project Structure
 
 parallel-heat-simulation/
-├── serial/ # Sequential implementation (baseline)
-├── pthread/ # Pthreads parallelization
-├── cuda/ # CUDA parallelization
-├── results/ # Performance data (benchmark results)
-├── Makefile # Compilation script for different implementations
-└── README.md # This file
-
+├── serial/       # Sequential implementation (baseline)
+├── pthread/      # Pthreads parallelization
+├── cuda/         # CUDA parallelization
+├── results/      # Performance data (benchmark results)
+├── Makefile      # Compilation script for different implementations
+└── README.md     # This file
 
 ## How to Run
 
