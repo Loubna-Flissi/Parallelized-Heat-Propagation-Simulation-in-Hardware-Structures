@@ -23,9 +23,9 @@ The simulation models the transfer of heat over time within a grid by updating e
 
 ## Folder Structure
 
-├── serial/ # Contains heat_sim_serial.c
-├── pthreads/ # Contains heat_sim_pthreads.c
-├── cuda/ # Contains heat_sim_cuda.cu
+- serial/ # Contains heat_sim_serial.c
+- pthreads/ # Contains heat_sim_pthreads.c
+- cuda/ # Contains heat_sim_cuda.cu
 
 
 Each folder includes a dedicated `README.md` with compilation and execution instructions.
